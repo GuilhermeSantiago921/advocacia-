@@ -1,0 +1,9 @@
+{
+  "name": "advocacia-landing",
+  "version": "1.0.0",
+  "description": "Landing page de escritório de advocacia com atendimento via WhatsApp",
+  "private": true,
+  "scripts": {
+    "build": "echo 'static build completed'"
+  }
+}

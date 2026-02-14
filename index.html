@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Atendimento jurídico com resposta imediata via WhatsApp. Escritório de advocacia com atuação no território nacional."
+    />
+    <title>Escritório de Advocacia | Atendimento Imediato via WhatsApp</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar__content">
+        <div>
+          <p class="brand">Santiago & Associados</p>
+          <p class="brand-subtitle">Advocacia estratégica</p>
+        </div>
+        <a class="btn btn--whatsapp" href="https://wa.me/5511999999999?text=Olá%2C%20preciso%20de%20atendimento%20jurídico%20imediato." target="_blank" rel="noopener noreferrer">
+          Falar no WhatsApp
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="container hero__grid">
+          <div>
+            <p class="eyebrow">Atendimento imediato</p>
+            <h1>Suporte jurídico rápido e seguro pelo WhatsApp</h1>
+            <p class="hero__text">
+              Equipe especializada para orientar seu caso com agilidade, clareza e estratégia.
+              <strong>Atuação exclusiva no território nacional.</strong>
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--whatsapp" href="https://wa.me/5511999999999?text=Olá%2C%20gostaria%20de%20um%20atendimento%20jurídico%20imediato." target="_blank" rel="noopener noreferrer">
+                Solicitar atendimento agora
+              </a>
+              <a class="btn btn--secondary" href="#formulario">Enviar meus dados</a>
+            </div>
+          </div>
+          <aside class="hero__panel" aria-label="Diferenciais do escritório">
+            <h2>Por que falar conosco agora?</h2>
+            <ul>
+              <li>Primeiro retorno em poucos minutos em horário comercial.</li>
+              <li>Atendimento humano, objetivo e sigiloso.</li>
+              <li>Triagem inicial gratuita via WhatsApp.</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="servicos">
+        <div class="container">
+          <h2>Serviços oferecidos</h2>
+          <p class="section__intro">
+            Atendimento consultivo e contencioso para pessoas físicas e empresas.
+          </p>
+          <ul class="cards">
+            <li class="card">
+              <h3>Direito Trabalhista</h3>
+              <p>Reclamações, rescisões, verbas trabalhistas e defesa empresarial.</p>
+            </li>
+            <li class="card">
+              <h3>Direito de Família</h3>
+              <p>Divórcio, guarda, pensão alimentícia, inventário e mediação familiar.</p>
+            </li>
+            <li class="card">
+              <h3>Direito Previdenciário</h3>
+              <p>Aposentadorias, benefícios por incapacidade e revisões do INSS.</p>
+            </li>
+            <li class="card">
+              <h3>Direito do Consumidor</h3>
+              <p>Cobranças indevidas, indenizações e conflitos contratuais.</p>
+            </li>
+            <li class="card">
+              <h3>Direito Empresarial</h3>
+              <p>Contratos, recuperação de crédito e prevenção de litígios.</p>
+            </li>
+            <li class="card">
+              <h3>Consultoria Preventiva</h3>
+              <p>Análise estratégica para reduzir riscos jurídicos no dia a dia.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="depoimentos">
+        <div class="container">
+          <h2>Depoimentos de clientes</h2>
+          <div class="testimonials">
+            <article class="testimonial">
+              <p>
+                “Fui atendida no mesmo dia e recebi toda orientação para resolver meu problema
+                trabalhista com segurança.”
+              </p>
+              <span>Ana R. — São Paulo/SP</span>
+            </article>
+            <article class="testimonial">
+              <p>
+                “Comunicação clara e objetiva. O contato via WhatsApp facilitou muito todo o
+                processo.”
+              </p>
+              <span>Marcos P. — Belo Horizonte/MG</span>
+            </article>
+            <article class="testimonial">
+              <p>
+                “Excelente suporte no inventário da minha família. Equipe atenciosa e muito
+                técnica.”
+              </p>
+              <span>Carla S. — Curitiba/PR</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="localizacao">
+        <div class="container">
+          <h2>Localização</h2>
+          <p class="section__intro">Atendimento presencial com agendamento prévio.</p>
+          <div class="map-wrap">
+            <iframe
+              title="Localização do escritório no Google Maps"
+              src="https://www.google.com/maps?q=Pra%C3%A7a%20da%20S%C3%A9%2C%20S%C3%A3o%20Paulo%20-%20SP&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="formulario">
+        <div class="container form-area">
+          <div>
+            <h2>Solicite contato imediato</h2>
+            <p class="section__intro">
+              Preencha os dados e envie sua solicitação. Nosso time responde via WhatsApp.
+            </p>
+            <p class="national-note">Atendimento apenas para demandas no território nacional.</p>
+          </div>
+
+          <form id="leadForm" class="lead-form" novalidate>
+            <label for="nome">Nome completo</label>
+            <input id="nome" name="nome" type="text" autocomplete="name" required />
+
+            <label for="telefone">Telefone com WhatsApp</label>
+            <input id="telefone" name="telefone" type="tel" autocomplete="tel" required />
+
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+
+            <label for="area">Área de interesse</label>
+            <select id="area" name="area" required>
+              <option value="">Selecione</option>
+              <option>Direito Trabalhista</option>
+              <option>Direito de Família</option>
+              <option>Direito Previdenciário</option>
+              <option>Direito do Consumidor</option>
+              <option>Direito Empresarial</option>
+              <option>Consultoria Preventiva</option>
+            </select>
+
+            <label for="mensagem">Resumo do caso</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <label class="checkbox">
+              <input id="nacional" name="nacional" type="checkbox" required />
+              Confirmo que meu caso é de competência no território nacional.
+            </label>
+
+            <button class="btn btn--whatsapp" type="submit">Enviar e abrir WhatsApp</button>
+            <p id="formFeedback" class="form-feedback" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/5511999999999?text=Olá%2C%20preciso%20de%20atendimento%20jurídico%20agora."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Abrir conversa no WhatsApp"
+    >
+      WhatsApp
+    </a>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Santiago & Associados. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
